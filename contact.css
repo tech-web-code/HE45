@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#0f4675, #0f4675 50%, #fff 50%, #fff 100%);
+}
+.container{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container .box-one{
+    font-family: 'poppins', sans-serif;
+    position: relative;
+    width: 320px;
+    background: #fff;
+    padding: 220px 40px 60px;
+    left: -780px;
+    top: 310px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.5);
+    border-radius: 20px;
+}
+.container .box-two{
+    position: relative;
+    font-family: 'poppins', sans-serif;
+    width: 320px;
+    background: #fff;
+    padding: 110px 40px 60px;
+    left: 370px;
+    top: -280px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.5);
+    border-radius: 20px;
+}
+.container .box-three{
+    font-family: 'poppins', sans-serif;
+    position: relative;
+    width: 320px;
+    background: #fff;
+    padding: 100px 40px 60px;
+    left: -50px;
+    top: -280px;
+    box-shadow: 0 25px 50px rgba(0,0,0,.5);
+    border-radius: 20px;
+}
+.container .box-one:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ff226d;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    border-radius: 20px;
+}
+.container .box-one:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+.container .box-two:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ff226d;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    border-radius: 20px;
+}
+.container .box-two:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+.container .box-three:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ff226d;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    border-radius: 20px;
+}
+.container .box-three:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+.container .box-one h2{
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    font-size: 4rem;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.container .box-one:hover h2{
+    opacity: 1;
+    color: #fff;
+    transform: translateY(-40px);
+}
+.container .box-two h2{
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    font-size: 4rem;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.container .box-two:hover h2{
+    opacity: 1;
+    color: #fff;
+    transform: translateY(-40px);
+}
+.container .box-three h2{
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    font-size: 4rem;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.container .box-three:hover h2{
+    opacity: 1;
+    color: #fff;
+    transform: translateY(-40px);
+}
+.container .box-one h3{
+    position: relative;
+    font-size: 1.5rem;
+    z-index: 2;
+    color: #333;
+    transition: 0.5s;
+    top: -110px;
+}
+.container .box-one p{
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -110px;
+}
+.container .box-one a{
+    text-decoration: none;
+    outline: none;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.container .box-one:hover h3,
+.container .box-one:hover p{
+    color: #fff;
+}
+.container .box-one img{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 120%;
+    display: flex;
+    top: -110px;
+}
+.container .box-one img:hover{
+    display: block;
+    width: 100%;
+    height: 120%;
+}
+.container .box-two h3{
+    position: relative;
+    font-size: 1.5rem;
+    z-index: 2;
+    color: #333;
+    transition: 0.5s;
+}
+.container .box-two p{
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5s;
+}
+.container .box-two a{
+    text-decoration: none;
+    outline: none;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.container .box-two:hover h3,
+.container .box-two:hover p{
+    color: #fff;
+}
+.container .box-two img{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height:90%;
+}
+.container .box-two img:hover{
+    width: 100%;
+    height: 90%;
+}
+.container .box-three h3{
+    position: relative;
+    font-size: 1.5rem;
+    z-index: 2;
+    color: #333;
+    transition: 0.5s;
+}
+.container .box-three p{
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5s;
+}
+.container .box-three a{
+    text-decoration: none;
+    outline: none;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.container .box-three:hover h3,
+.container .box-three:hover p{
+    color: #fff;
+}
+.container .box-three img{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 90%;
+}
+.container .box-three img:hover{
+    width: 100%;
+    height: 90%;
+}
+.nav-area{
+    align-items: center;
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.nav-area li a:hover{
+    background: #0a2c49;
+    color: #FFF;
+    transition: 0.9s;
+}

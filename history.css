@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+section{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/background-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+.history-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.history-heading h3{
+    font-size: 2.4rem;
+    color: #ececec;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.history-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+.history-box{
+    width: 350px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin: 20px;
+}
+.history-img{
+    width: 100%;
+    height: auto;
+}
+.history-img img{
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+    object-position: center;
+}
+.history-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.history-text span{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.history-text a{
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.history-box-2{
+    width: 350px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin: 20px;
+}
+.history-img-2{
+    width: 100%;
+    height: auto;
+}
+.history-img-2 img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+    margin-left:0px;
+}
+.nav-area{
+    align-items: center;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom:10px;
+    margin-left: 20px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.nav-area li a:hover{
+    background: #020202;
+    color: #FFF;
+    transition: 0.9s;
+}
